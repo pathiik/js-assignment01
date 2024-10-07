@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+div.primary-buttons-area, div.secondary-buttons-area, div.tertiary-buttons-area {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+div.secondary-buttons-area {
+    margin-top: 80px;
+    justify-content: center;
+    gap: 80px;
+}
+
+div.tertiary-buttons-area {
+    margin-top: 40px;
+    justify-content: center;
+    gap: 80px;
+}
+
+div.primary-buttons-area > div, div.secondary-buttons-area > div, div.tertiary-buttons-area > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+div.primary-buttons-area > div > label {
+    font-size: 20px;
+}
+
+div.primary-buttons-area > div > button, div.secondary-buttons-area > div > button, div.tertiary-buttons-area > div > button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button#button-one {
+    background-color: purple;
+}
+
+button#button-one:hover {
+    background-color: rgb(144, 70, 144);
+}
+
+button#button-two {
+    background-color: skyblue;
+}
+
+button#button-two:hover {
+    background-color: rgb(38, 178, 234);
+}
+
+button#button-three {
+    background-color: greenyellow;
+}
+
+button#button-three:hover {
+    background-color: rgb(116, 194, 0);
+}
+
+button#button-four {
+    background-color: orange;
+}
+
+button#button-four:hover {
+    background-color: rgb(155, 101, 0);
+}
+
+button#button-five {
+    background-color: pink;
+}
+
+button#button-five:hover {
+    background-color: rgb(255, 76, 106);
+}
+
+button#surprise-btn {
+    background-color: red;
+}
+
+button#surprise-btn:hover {
+    background-color: rgb(127, 0, 0);
+}
+
+button#playback-btn {
+    background-color: aqua;
+}
+
+button#playback-btn:hover {
+    background-color: rgb(0, 167, 167);
+}
+
+button#story-btn {
+    background-color: yellow;
+}
+
+button#story-btn:hover {
+    background-color: rgb(157, 157, 1);
+}
+
+div.text-display {
+    margin-top: 40px;
+}
+
+p#text {
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.2;
+}
